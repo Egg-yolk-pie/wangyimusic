@@ -1,0 +1,144 @@
+.homeWrap {
+  height: calc(100vh - 55px);
+  overflow-y: scroll;
+}
+.bannner-swiper.banner {
+  overflow: scroll;
+}
+/* 导航区域 */
+.navContainer {
+  display: flex;
+}
+.navContainer .navItem {
+  text-decoration: none;
+  color: #333;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.navContainer .navItem .iconfont {
+  width: 50px;
+  height: 50px;
+  background: #f01313;
+  border-radius: 25px;
+  font-size: 25px;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  margin: 10px 0;
+}
+.navContainer .navItem text {
+  font-size: 13px;
+}
+.recommendContainer {
+  padding: 20px 10px;
+}
+.recommendContainer .header {
+  margin-bottom: 10px;
+}
+.recommendContainer .header .title {
+  font-size: 13px;
+  color: #666;
+}
+.recommendContainer .header .navContent {
+  height: 25px;
+  line-height: 25px;
+}
+.recommendContainer .header .navContent .nav {
+  font-size: 15px;
+  color: #000;
+}
+.recommendContainer .header .navContent .more {
+  float: right;
+  border: 1px solid #333;
+  font-size: 10px;
+  border-radius: 10px;
+  padding: 0 10px;
+}
+.recommendContainer .swiper-container {
+  display: flex;
+  height: 150px;
+}
+.recommendContainer .swiper-container .swiper-slide {
+  width: 100px;
+  margin-right: 10px;
+}
+.recommendContainer .swiper-container .swiper-slide img {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+}
+.recommendContainer .swiper-container .swiper-slide span {
+  display: block;
+  font-size: 26rpx;
+  /*white-space: nowrap;*/
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  /*webkit盒模型*/
+  -webkit-line-clamp: 2;
+  /*控制行数*/
+  -webkit-box-orient: vertical;
+  /*规定框的子元素应该被水平或垂直排列。*/
+}
+.topList {
+  padding: 20px 10px;
+}
+.topList .header {
+  margin-bottom: 10px;
+}
+.topList .header .title {
+  font-size: 13px;
+  color: #666;
+}
+.topList .header .navContent {
+  height: 25px;
+  line-height: 25px;
+}
+.topList .header .navContent .nav {
+  font-size: 15px;
+  color: #000;
+}
+.topList .header .navContent .more {
+  float: right;
+  border: 1px solid #333;
+  font-size: 10px;
+  border-radius: 10px;
+  padding: 0 10px;
+}
+.topList .topList-swiper {
+  width: 100%;
+  height: 230px;
+  overflow: scroll;
+}
+.topList .topList-swiper .swiper-wrapper {
+  display: flex;
+}
+.topList .topList-swiper .swiper-wrapper .swiper-slide {
+  background: #fbfbfb;
+}
+.topList .topList-swiper .swiper-wrapper .swiper-slide .swiperContent {
+  width: 96%;
+}
+.topList .topList-swiper .swiper-wrapper .swiper-slide .swiperContent .title {
+  font-size: 14px;
+  line-height: 40px;
+}
+.topList .topList-swiper .swiper-wrapper .swiper-slide .swiperContent .musicContent {
+  display: flex;
+  /* 当一个元素使用display：flex以后其下边的子元素会自动变成block */
+  margin-top: 10px;
+}
+.topList .topList-swiper .swiper-wrapper .swiper-slide .swiperContent .musicContent span {
+  height: 50px;
+  line-height: 50px;
+}
+.topList .topList-swiper .swiper-wrapper .swiper-slide .swiperContent .musicContent .count {
+  width: 50px;
+  text-align: center;
+}
+.topList .topList-swiper .swiper-wrapper .swiper-slide .swiperContent .musicContent .musicImg {
+  width: 42px;
+  height: 42px;
+}

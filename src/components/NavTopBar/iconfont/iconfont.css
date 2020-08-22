@@ -1,0 +1,29 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1598080285474'); /* IE9 */
+  src: url('iconfont.eot?t=1598080285474#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAPMAAsAAAAACAAAAAN/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDHAqDPIMFATYCJAMQCwoABCAFhG0HRxv2Bsgeg207eRxDvnxDdyopAmq/1z34LxdClyhASZLHh1UUgZDEimt8VW2VaDUbkf/VmV9wZJVBJSZfig7JjkNOFRUQnCsgT317bisAulNnF0DAwTHTVQnk2WwuWUmRgAMaD6jyu8n+Qf4F+ZfhtS6tw7qegAZ92kOLI8dPh2IZrgsIJ7YVguKMXm4oDYqgqjiaIbxATYlbcB7Ac/Dz4T90XQyiWgLcurQ3IgqDf7X48ZOs9lfDpocAwXRWiCeRMA5kwkGlfQuJ4uOIBv1vqCmgKCK/Wnwzfvz0fRAeRV7YvzySKBAqwOImMEFl6cIEDj9RGMAi8uen8AGulUFBhSfgGyCliywyQlOVC/WtvejJk+nPnunPn5c+fTq30tZLCGIJEzJnoAMPyPPvFff7OuPJl+nPvkXcs7WtssOXztWI6rk7R2qWbs0hornWc9cOG/fYVnOGu3r/1lp6lLkuxGaypqw203MIrVGmuGD9i3vwyBkNs/Dq/Zqeo1oN2nKD7MOXGdt2sW6m4uN4bKxcZSDG8bTYSNAr77ty4JXJXXVqIrxoz6Fs3KbiqSN4IaatYTV9yflLd4xyTl/C+x2tdfHGxYnTl1iPxxe7N9ntvl2SKwe/EvMqVOpVML8D7h8QYlHNRdEo+P7VWjQFozc8Vinf+BUnRpwuW8RSzKvtsfDKFVV7Lvl4mNKelSp4FR4Vn/DYjcDX6hffKsjXnFMzX3CLeTAZ4NNPAdIJgHSL/d/4O85+PjxqtPb/XxgF+GF+axg0fK6mkC7BvxB0Fvw0Qce+bIjQkLMmdvimM1sevCaiQQN+VZoO76ZwdoPEGhRJABDV6YWk6Edm7DjUNJqASjEDDcaMOrlRJ4kIuQQYtYFA0OY6RC2+Q9KmHJmxb6Gmx1+otCXQYCNUP2ejwbY2TIqQElEeXsLtiJM2bZPSwtKpwlqQDMm0KKDqQmbtEO/SsXM+NUqkhZxiR3ah1VUpk5vSSfGR5GYimXR4RjpxEVEdY0pl+nbqZFZ9UceIkwLNAkkIUYQoLmwJzhbhSDO90YpW+P6pBMsCSSGyoanOrhOkLHtyrouOOndAjpKnOzXdykuyFrJ0pSgmziQ5UriRxCokWdzBZaoXxQkRSkexAdGMvjrRYWZXecfllakXyBPbwE/KASOCKCqA5n0hRXppzElbi+10YXSBHQs5NOakBAAA') format('woff2'),
+  url('iconfont.woff?t=1598080285474') format('woff'),
+  url('iconfont.ttf?t=1598080285474') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1598080285474#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-gerenzhongxin:before {
+  content: "\e8e9";
+}
+
+.icon-duihao:before {
+  content: "\e65f";
+}
+
+.icon-home:before {
+  content: "\e625";
+}
+

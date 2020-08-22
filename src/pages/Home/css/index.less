@@ -1,0 +1,145 @@
+.homeWrap{
+  height: calc(100vh - 55px);
+  overflow-y: scroll;
+}
+.bannner-swiper.banner{
+  overflow: scroll;
+}
+/* 导航区域 */
+.navContainer {
+    display: flex;
+   .navItem {
+     text-decoration: none;
+     color: #333;
+      width: 20%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+     .iconfont {
+        width: 50px;
+        height:50px;
+        background: rgb(240, 19, 19);
+        border-radius: 25px;
+        font-size: 25px;
+        text-align: center;
+        line-height: 50px;
+        color: #fff;
+        margin: 10px 0;
+    }
+     text {
+      font-size: 13px;
+    }
+    }
+}
+  // 推荐歌曲
+  .recommendContainer { 
+    padding: 20px 10px;
+    .header {
+      margin-bottom: 10px;   
+     .title {
+        font-size: 13px;
+        color: #666;
+      }
+      .navContent {
+        height: 25px;
+        line-height: 25px;
+        .nav {
+          font-size: 15px;
+          color: #000;
+        }
+        .more {
+          float: right;
+          border: 1px solid #333;
+          font-size: 10px;
+          border-radius: 10px;
+          padding: 0 10px;
+        }
+      }
+    }
+    .swiper-container{
+      display: flex;
+      height: 150px;
+      .swiper-slide{
+        width: 100px;
+        margin-right: 10px;
+        img{
+          width: 100px;
+          height: 100px;
+          border-radius: 5px;
+        }
+        span{
+          display: block;
+          font-size: 26rpx;
+          /*white-space: nowrap;*/
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;  /*webkit盒模型*/
+          -webkit-line-clamp:2;  /*控制行数*/
+          -webkit-box-orient: vertical;  /*规定框的子元素应该被水平或垂直排列。*/
+        }
+      }
+    } 
+  }
+  // 排行榜
+  .topList{
+    padding: 20px 10px;
+    .header {
+      margin-bottom: 10px;   
+     .title {
+        font-size: 13px;
+        color: #666;
+      }
+      .navContent {
+        height: 25px;
+        line-height: 25px;
+        .nav {
+          font-size: 15px;
+          color: #000;
+        }
+        .more {
+          float: right;
+          border: 1px solid #333;
+          font-size: 10px;
+          border-radius: 10px;
+          padding: 0 10px;
+        }
+      }
+    } 
+    .topList-swiper {   
+      width: 100%;
+      height: 230px;
+      overflow: scroll; 
+      .swiper-wrapper{            
+          display: flex;
+          .swiper-slide{
+            background: #fbfbfb;
+            .swiperContent {
+              width: 96%;
+             
+              .title {
+                font-size: 14px;
+                line-height: 40px;
+              }
+              .musicContent {
+                  display: flex; /* 当一个元素使用display：flex以后其下边的子元素会自动变成block */
+                  margin-top: 10px;
+                  span {
+                    height: 50px;
+                    line-height: 50px;
+                  }          
+                  .count {
+                    width: 50px;
+                    text-align: center;
+                  }
+                  .musicImg{
+                    width: 42px;
+                    height: 42px;
+                  }
+              }        
+            }
+          }
+      }
+
+    }      
+}
+

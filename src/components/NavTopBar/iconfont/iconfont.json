@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "835900",
+      "name": "个人中心",
+      "font_class": "gerenzhongxin",
+      "unicode": "e8e9",
+      "unicode_decimal": 59625
+    },
+    {
+      "icon_id": "8875605",
+      "name": "勾选",
+      "font_class": "duihao",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    },
+    {
+      "icon_id": "9512587",
+      "name": "房子",
+      "font_class": "home",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    }
+  ]
+}
